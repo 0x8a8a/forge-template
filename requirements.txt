@@ -6,7 +6,7 @@
 #
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.11.18
+aiohttp==3.12.4
     # via web3
 aiosignal==1.3.2
     # via aiohttp
@@ -14,7 +14,7 @@ annotated-types==0.7.0
     # via pydantic
 attrs==25.3.0
     # via aiohttp
-bitarray==3.4.0
+bitarray==3.4.2
     # via eth-account
 cbor2==5.6.5
     # via crytic-compile
@@ -74,18 +74,18 @@ frozenlist==1.6.0
     # via
     #   aiohttp
     #   aiosignal
-hexbytes==1.3.0
+hexbytes==1.3.1
     # via
     #   eth-account
     #   eth-rlp
     #   web3
-identify==2.6.10
+identify==2.6.12
     # via pre-commit
 idna==3.10
     # via
     #   requests
     #   yarl
-multidict==6.4.3
+multidict==6.4.4
     # via
     #   aiohttp
     #   yarl
@@ -107,14 +107,14 @@ propcache==0.3.1
     # via
     #   aiohttp
     #   yarl
-pycryptodome==3.22.0
+pycryptodome==3.23.0
     # via
     #   crytic-compile
     #   eth-hash
     #   eth-keyfile
     #   slither-analyzer
     #   solc-select
-pydantic==2.11.4
+pydantic==2.11.5
     # via
     #   eth-account
     #   eth-utils
@@ -139,7 +139,7 @@ solc-select==1.1.0
     # via crytic-compile
 toolz==1.0.0
     # via cytoolz
-types-requests==2.32.0.20250328
+types-requests==2.32.0.20250515
     # via web3
 typing-extensions==4.13.2
     # via
@@ -148,7 +148,7 @@ typing-extensions==4.13.2
     #   pydantic-core
     #   typing-inspection
     #   web3
-typing-inspection==0.4.0
+typing-inspection==0.4.1
     # via pydantic
 urllib3==2.4.0
     # via
@@ -158,7 +158,7 @@ virtualenv==20.31.2
     # via pre-commit
 wcwidth==0.2.13
     # via prettytable
-web3==7.11.0
+web3==7.12.0
     # via slither-analyzer
 websockets==15.0.1
     # via web3
